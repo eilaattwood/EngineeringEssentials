@@ -12,7 +12,7 @@
     "cutting": 0,
     "material": [ "plastic", "aluminum" ],
     "dispersion": 180,
-    "effects": [ "INCENDIARY", "TRAIL", "FLAME", "LARGE_BEANBAG", "DRAW_AS_LINE" ],
+    "effects": [ "INCENDIARY", "TRAIL", "LARGE_BEANBAG", "DRAW_AS_LINE" ],
     "relative": { "range": -30, "damage": 50, "pierce": -15 }
   }
 ]
