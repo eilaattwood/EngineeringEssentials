@@ -17,5 +17,18 @@
     "max_charges": 50,
     "charges_per_use": 10,
     "use_action": "SHAVEKIT"
+  },
+  {
+    "id": "press_large",
+    "type": "TOOL",
+    "name": "large press",
+    "description": "Large press that can be used to glue wooden parts together under pressure.",
+    "weight": 71520,
+    "volume": 400,
+    "price": 50000,
+    "to_hit": -4,
+    "bashing": 15,
+    "material": [ "steel" ],
+    "symbol": "="
   }
 ]
