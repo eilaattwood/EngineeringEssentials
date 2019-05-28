@@ -284,7 +284,7 @@
     "reversible": true,
     "book_learn": [ [ "101_carpentry", 4 ], [ "manual_carpentry", 4 ], [ "carpentry_book", 4 ] ],
     "using": [ [ "welding_standard", 5 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "WRENCH", "level": 1 }, { "id": "GLARE", "level": 2 } ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "steel_plate", 4 ] ],
       [ [ "pipe", 10 ] ],
