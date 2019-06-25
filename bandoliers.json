@@ -3,46 +3,24 @@
     "id": "bandolier_rifle",
     "type": "ARMOR",
     "name": "rifle bandolier",
-    "description": "A leather bandolier for keeping rifle cartridges close to hand.",
-    "weight": 140,
-    "volume": 1,
-    "price": 1900,
-    "material": "leather",
-    "symbol": "[",
-    "color": "dark_gray",
-    "covers": [ "TORSO" ],
-    "coverage": 10,
-    "encumbrance": 3,
-    "material_thickness": 1,
+    "copy-from": "bandolier_rifle",
     "use_action": {
       "type": "bandolier",
       "capacity": 16,
       "ammo": [ "22", "223", "5x50", "545x39", "3006", "308", "300", "762", "762R", "8x40mm", "metal_rail" ],
       "draw_cost": 20
-    },
-    "flags": [ "WATER_FRIENDLY", "WAIST", "OVERSIZE" ]
+    }
   },
   {
     "id": "bandolier_wrist",
     "type": "ARMOR",
     "name": "wrist bandolier",
-    "description": "A small fabric bandolier for rifle cartridges designed to be worn around the wrist.",
-    "weight": 30,
-    "volume": 1,
-    "price": 2900,
-    "material": "cotton",
-    "symbol": "[",
-    "color": "dark_gray",
-    "covers": [ "HAND_EITHER" ],
-    "coverage": 5,
-    "encumbrance": 4,
-    "material_thickness": 1,
+    "copy-from": "bandolier_wrist",
     "use_action": {
       "type": "bandolier",
       "capacity": 4,
       "ammo": [ "22", "223", "5x50", "545x39", "3006", "308", "300", "762", "762R", "8x40mm", "metal_rail" ],
       "draw_cost": 20
-    },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "ALLOWS_NATURAL_ATTACKS" ]
+    }
   }
 ]
