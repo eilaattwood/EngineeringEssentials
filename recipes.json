@@ -86,7 +86,7 @@
     "components": [ [ [ "chem_carbide", 400 ] ], [ [ "water_clean", 12 ] ], [ [ "weldtank", 1 ] ] ]
   },
   {
-    "result": "mod_weld_plasma",
+    "result": "plasma_torch",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -113,8 +113,10 @@
       [ [ "cu_pipe", 1 ] ],
       [ [ "power_supply", 4 ] ],
       [ [ "amplifier", 4 ] ],
-      [ [ "cable", 40 ] ],
-      [ [ "scrap", 4 ] ]
+      [ [ "jumper_cable", 1 ] ],
+      [ [ "hose", 1 ] ],
+      [ [ "solder_wire", 40 ] ],
+      [ [ "scrap", 20 ] ]
     ]
   },
   {
@@ -137,7 +139,7 @@
       [ [ "pilot_light", 1 ] ],
       [ [ "solder_wire", 20 ] ],
       [ [ "e_scrap", 6 ] ],
-      [ [ "cable", 60 ] ],
+      [ [ "jumper_cable", 60 ] ],
       [ [ "scrap", 10 ] ]
     ]
   },
