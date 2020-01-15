@@ -103,6 +103,6 @@
     "bashing": 4,
     "ammo_type": "components",
     "phase": "liquid",
-    "container": "jug_plastic",
-  },
+    "container": "jug_plastic"
+  }
 ]
