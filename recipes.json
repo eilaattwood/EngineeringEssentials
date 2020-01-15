@@ -98,6 +98,7 @@
     "decomp_learn": 6,
     "book_learn": [ [ "welding_book", 7 ] ],
     "using": [ [ "welding_standard", 10 ], [ "soldering_standard", 5 ] ],
+    "tools": [ [ [ "lathe", 50 ] ] ],
     "qualities": [
       { "id": "HAMMER", "level": 3 },
       { "id": "HAMMER_FINE", "level": 1 },

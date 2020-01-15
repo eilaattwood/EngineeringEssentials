@@ -1,0 +1,11 @@
+[
+  {
+     "id": "tools_mechanic",
+     "type": "item_group",
+     "//": "Equipment of any size commonly used by engineers and mechanics",
+     "items": [
+       [ "plasma_torch", 5 ],
+       [ "lathe", 40 ],
+     ]
+  },
+]
