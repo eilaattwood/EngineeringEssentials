@@ -38,11 +38,12 @@
   "name": "plasma torch",
   "name_plural": "plasma torches",
   "description": "Powerful tool that cuts through electrically conductive materials by means of an accelerated jet of hot plasma. Also has an option of arc welding. Darth Welder would be proud.",
+  "price": 20000,
+  "bashing": 22,
+  "to_hit": -6,
   "weight": "30 kg",
   "volume": "67 L",
   "material": [ "steel", "copper" ],
-  "price": 20000,
-  "bashing": 8,
   "use_action": [
     "OXYTORCH",
     {
@@ -55,6 +56,30 @@
       "move_cost": 500
     }
   ],
+  "magazines": [
+    [
+      "battery",
+      [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
+    ]
+  ],
+  "magazine_well": 4
+  },
+  {
+  "id": "lathe",
+  "type": "TOOL",
+  "name": "portable lathe",
+  "name_plural": "portable lathes",
+  "description": "A machine tool that rotates a workpiece about an axis of rotation to perform various operations such as cutting, sanding, knurling, drilling, deformation, facing, and turning, with tools that are applied to the workpiece to create an object with symmetry about that axis.",
+  "price": 20000,
+  "bashing": 24,
+  "to_hit": -6,
+  "weight": "40 kg",
+  "volume": "72 L",
+  "material": "steel",
+  "symbol": ";",
+  "color": "green",
+  "ammo": "battery",
+  "flags": [ "ALLOWS_REMOTE_USE" ],
   "magazines": [
     [
       "battery",
