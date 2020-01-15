@@ -65,27 +65,44 @@
   "magazine_well": 4
   },
   {
-  "id": "lathe",
-  "type": "TOOL",
-  "name": "portable lathe",
-  "name_plural": "portable lathes",
-  "description": "A machine tool that rotates a workpiece about an axis of rotation to perform various operations such as cutting, sanding, knurling, drilling, deformation, facing, and turning, with tools that are applied to the workpiece to create an object with symmetry about that axis.",
-  "price": 20000,
-  "bashing": 24,
-  "to_hit": -6,
-  "weight": "40 kg",
-  "volume": "72 L",
-  "material": "steel",
-  "symbol": ";",
-  "color": "green",
-  "ammo": "battery",
-  "flags": [ "ALLOWS_REMOTE_USE" ],
-  "magazines": [
-    [
-      "battery",
-      [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
-    ]
-  ],
-  "magazine_well": 4
-  }
+    "id": "lathe",
+    "type": "TOOL",
+    "name": "portable lathe",
+    "name_plural": "portable lathes",
+    "description": "A machine tool that rotates a workpiece about an axis of rotation to perform various operations such as cutting, sanding, knurling, drilling, deformation, facing, and turning, with tools that are applied to the workpiece to create an object with symmetry about that axis.",
+    "price": 100000,
+    "bashing": 24,
+    "to_hit": -6,
+    "weight": "40 kg",
+    "volume": "72 L",
+    "material": "steel",
+    "symbol": ";",
+    "color": "green",
+    "ammo": "battery",
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "magazines": [
+      [
+        "battery",
+        [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ]
+      ]
+    ],
+    "magazine_well": 4
+  },
+  {
+    "type": "AMMO",
+    "id": "chem_epoxy",
+    "category": "chems",
+    "price": 1000,
+    "name": "epoxy resin",
+    "name_plural": "epoxy resin",
+    "symbol": "=",
+    "color": "orange",
+    "description": "Epoxy resin that can be reacted to form thermoset polymers possessing a high degree of chemical and solvent resistance, outstanding adhesion to a broad range of substrates, a low order of shrinkage on cure, impact resistance, flexibility, and good electrical properties.",
+    "volume": "3750 ml",
+    "weight": "4500 g",
+    "bashing": 4,
+    "ammo_type": "components",
+    "phase": "liquid",
+    "container": "jug_plastic",
+  },
 ]
