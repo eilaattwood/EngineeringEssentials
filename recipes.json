@@ -337,5 +337,15 @@
     "book_learn": [ [ "101_carpentry", 3 ], [ "manual_carpentry", 3 ], [ "carpentry_book", 3 ] ],
     "tools": [ [ [ "press_large", -1 ] ] ],
     "components": [ [ [ "splinter", 40 ] ], [ [ "bone_glue", 10 ], [ "superglue", 10 ] ] ]
+  },
+  {
+    "result": "epoxy_kit",
+    "type": "uncraft",
+    "time": "4 s",
+    "components": [
+      [ [ "chem_epoxy", 150 ] ],
+      [ [ "chem_epoxy_hardener", 150 ] ]
+    ],
+  "flags": [ "BLIND_EASY", "UNCRAFT_LIQUIDS_CONTAINED" ]
   }
 ]
