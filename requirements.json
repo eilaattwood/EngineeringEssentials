@@ -16,6 +16,6 @@
      "id": "epoxy_glue",
      "type": "requirement",
      "//": "Gluing with epoxy resin",
-     "components": [ [ [ "chem_epoxy", 25 ] ] , [ [ "chem_epoxy_hardener", 25 ] ] ]
+     "components": [ [ [ "chem_epoxy", 1 ] ] , [ [ "chem_epoxy_hardener", 1 ] ] ]
   }
 ]
