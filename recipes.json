@@ -336,7 +336,7 @@
     "autolearn": [ [ "fabrication", 4 ] ],
     "book_learn": [ [ "101_carpentry", 3 ], [ "manual_carpentry", 3 ], [ "carpentry_book", 3 ] ],
     "tools": [ [ [ "press_large", -1 ] ] ],
-    "components": [ [ [ "splinter", 40 ] ], [ [ "bone_glue", 10 ], [ "superglue", 10 ] ] ]
+    "components": [ [ [ "splinter", 40 ] ], [ [ "superglue", 150 ], [ "bone_glue", 150 ], [ "epoxy_glue", 150 ] ] ]
   },
   {
     "result": "epoxy_kit",
