@@ -17,40 +17,5 @@
     "phase": "liquid",
     "container": "jug_plastic",
     "count": 150
-  },
-  {
-    "type": "AMMO",
-    "id": "chem_epoxy_hardener",
-    "category": "chems",
-    "price": 500,
-    "name": "epoxy hardener",
-    "name_plural": "epoxy hardener",
-    "symbol": "=",
-    "color": "yellow",
-    "looks_like": "chem_epoxy",
-    "description": "Reagent that is used to solidify epoxy resin.",
-    "volume": "250 ml",
-    "weight": "300 g",
-    "material": "alien_resin",
-    "ammo_type": "components",
-    "phase": "liquid",
-    "container": "bottle_plastic_small",
-    "count": 150
-  },
-  {
-    "type": "GENERIC",
-    "id": "epoxy_kit",
-    "category": "chems",
-    "price": 5000,
-    "name": "epoxy resin kit",
-    "name_plural": "epoxy resin kit",
-    "symbol": ")",
-    "color": "white",
-    "looks_like": "jug_plastic",
-    "description": "A jug of epoxy resin with a bottle of hardener taped on the side.",
-    "volume": "4 L",
-    "weight": "5 kg",
-    "material": "alien_resin",
-    "use_action": "DISASSEMBLE"
   }
 ]

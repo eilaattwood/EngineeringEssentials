@@ -24,7 +24,7 @@
    "//": "General purpose supplies for building / blue collar work.",
    "//2": "Stuff you might find in a jobsite, a hardware store, or a home workshop.",
    "items": [
-     [ "epoxy_kit", 15 ]
+     [ "chem_epoxy", 15 ]
    ]
  },
  {
@@ -32,7 +32,7 @@
     "id": "hardware_bulk",
     "//": "large quantities of common building supplies.",
     "items": [
-      [ "epoxy_kit", 15 ]
+      [ "chem_epoxy", 15 ]
     ]
  },
  {
@@ -40,7 +40,7 @@
     "type": "item_group",
     "//": "General supplies to run a mechanics shop or do mechanical work",
     "items": [
-      [ "epoxy_kit", 15 ]
+      [ "chem_epoxy", 15 ]
     ]
   }
 ]
