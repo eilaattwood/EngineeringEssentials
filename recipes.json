@@ -170,7 +170,7 @@
       [ [ "pilot_light", 1 ] ],
       [ [ "solder_wire", 20 ] ],
       [ [ "e_scrap", 6 ] ],
-      [ [ "jumper_cable", 60 ] ],
+      [ [ "jumper_cable", 1 ] ],
       [ [ "scrap", 10 ] ]
     ]
   },
