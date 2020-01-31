@@ -42,5 +42,77 @@
     "items": [
       [ "chem_epoxy", 15 ]
     ]
+  },
+  {
+     "id": "rare",
+     "type": "item_group",
+     "//": "Items that should have very low frequencies and or few locations.",
+     "items": [
+       [ "survivor_chem", 10 ]
+     ]
+  },
+  {
+     "id": "science",
+     "type": "item_group",
+     "items": [
+       [ "survivor_chem", 5 ]
+     ]
+  },
+  {
+     "id": "subway",
+     "type": "item_group",
+     "items": [
+       [ "survivor_chem", 2 ]
+     ]
+  },
+  {
+     "id": "cop_evidence",
+     "type": "item_group",
+     "items": [
+       [ "survivor_chem", 1 ]
+     ]
+  },
+  {
+     "id": "school",
+     "type": "item_group",
+     "items": [
+       [ "survivor_chem", 1 ]
+     ]
+  },
+  {
+     "id": "vault",
+     "type": "item_group",
+     "items": [
+       [ "survivor_chem", 5 ]
+     ]
+  },
+  {
+     "id": "shelter",
+     "type": "item_group",
+     "items": [
+       [ "survivor_chem", 5 ]
+     ]
+  },
+  {
+     "id": "hospital_lab",
+     "type": "item_group",
+     "items": [
+       [ "survivor_chem", 3 ]
+     ]
+  },
+  {
+     "id": "trash",
+     "type": "item_group",
+     "items": [
+       [ "survivor_chem", 1 ]
+     ]
+  },
+  ,
+  {
+     "id": "vault_wanderer",
+     "type": "item_group",
+     "items": [
+       [ "survivor_chem", 5 ]
+     ]
   }
 ]
