@@ -18,13 +18,13 @@
     "count": 150
   },
   {
-    "type": "GENERIC",
+    "type": "AMMO",
     "id": "bone_glue",
-    "copy_from": "bone_glue",
-    "price": 1800,
-    "weight": "45 g",
-    "volume": "250 ml",
+    "copy-from": "bone_glue",
+    "name": { "str": "bone glue", "str_pl": "bone glue" },
     "container": "bag_plastic",
+    "ammo_type": "components",
+    "volume": "6 L",
     "count": 24
   }
 ]

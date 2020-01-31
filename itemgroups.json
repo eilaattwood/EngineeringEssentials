@@ -24,7 +24,8 @@
    "//": "General purpose supplies for building / blue collar work.",
    "//2": "Stuff you might find in a jobsite, a hardware store, or a home workshop.",
    "items": [
-     [ "chem_epoxy", 15 ]
+     [ "chem_epoxy", 15 ],
+     [ "bone_glue", 15 ]
    ]
  },
  {
@@ -32,7 +33,18 @@
     "id": "hardware_bulk",
     "//": "large quantities of common building supplies.",
     "items": [
-      [ "chem_epoxy", 15 ]
+      [ "chem_epoxy", 15 ],
+      [ "bone_glue", 15 ]
+    ]
+ },
+ {
+    "id": "wood_workshop",
+    "type": "item_group",
+    "//": "for domestic or small trade wood working shops",
+    "subtype": "collection",
+    "items": [
+      { "item": "chem_epoxy", "prob": 5, "charges-min": 10 },
+      { "item": "bone_glue", "prob": 40, "charges-min": 5 }
     ]
  },
  {
@@ -40,7 +52,7 @@
     "type": "item_group",
     "//": "General supplies to run a mechanics shop or do mechanical work",
     "items": [
-      [ "chem_epoxy", 15 ]
+      { "item": "chem_epoxy", "prob": 15, "charges-min": 10 }
     ]
   },
   {
