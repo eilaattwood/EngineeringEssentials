@@ -305,7 +305,7 @@
   {
     "type": "recipe",
     "result": "chem_epoxy",
-    "count": 150,
+    "charges": 150,
     "id_suffix": "from_resin_chunk",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_OTHER",
@@ -334,7 +334,7 @@
   {
     "type": "recipe",
     "result": "chem_epoxy",
-    "count": 1000,
+    "charges": 1000,
     "id_suffix": "from_alien_pod",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_OTHER",
@@ -354,7 +354,7 @@
     ],
     "using": [ [ "surface_heat", 600, "LIST" ] ],
     "components": [
-      [ [ "alien_pod_resin", 15 ] ]
+      [ [ "alien_pod_resin", 1 ] ]
     ]
   },
   {
