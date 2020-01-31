@@ -16,5 +16,15 @@
     "phase": "liquid",
     "container": "jug_plastic",
     "count": 150
+  },
+  {
+    "type": "GENERIC",
+    "id": "bone_glue",
+    "copy_from": "bone_glue",
+    "price": 1800,
+    "weight": "45 g",
+    "volume": "250 ml",
+    "container": "bag_plastic",
+    "count": 24
   }
 ]
