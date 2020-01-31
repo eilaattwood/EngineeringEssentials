@@ -5,7 +5,8 @@
      "//": "Equipment of any size commonly used by engineers and mechanics",
      "items": [
        [ "plasma_torch", 5 ],
-       [ "lathe", 40 ]
+       [ "lathe", 20 ],
+       [ "press_large", 5 ]
      ]
   },
   {
@@ -44,7 +45,8 @@
     "subtype": "collection",
     "items": [
       { "item": "chem_epoxy", "prob": 5, "charges-min": 10 },
-      { "item": "bone_glue", "prob": 40, "charges-min": 5 }
+      { "item": "bone_glue", "prob": 40, "charges-min": 5 },
+      [ "press_large", 20 ]
     ]
  },
  {
@@ -125,5 +127,26 @@
      "items": [
        [ "survivor_chem", 5 ]
      ]
+  },
+  {
+    "id": "homebooks",
+    "type": "item_group",
+    "items": [
+      [ "materials_fabrication", 4 ]
+    ]
+  },
+  {
+    "id": "textbooks_school",
+    "type": "item_group",
+    "items": [
+      [ "materials_fabrication", 12 ]
+    ]
+  },
+  {
+    "id": "hardware_books",
+    "type": "item_group",
+    "items": [
+      [ "materials_fabrication", 12 ]
+    ]
   }
 ]
