@@ -38,6 +38,18 @@
     "components": [ [ [ "antenna", 1 ] ], [ [ "e_scrap", 2 ] ], [ [ "transponder", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
+    "type": "recipe",
+    "result": "oxygen",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "difficulty": 0,
+    "time": "1 s",
+    "reversible": false,
+    "auto_learn": true,
+    "tools": [ [ [ "smoxygen_tank", 1 ], [ "oxygen_tank", 1 ], [ "oxygen_cylinder", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
     "result": "plasma_torch",
     "type": "recipe",
     "category": "CC_OTHER",
