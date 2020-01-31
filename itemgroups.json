@@ -107,7 +107,6 @@
        [ "survivor_chem", 1 ]
      ]
   },
-  ,
   {
      "id": "vault_wanderer",
      "type": "item_group",
