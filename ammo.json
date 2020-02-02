@@ -13,6 +13,6 @@
     "material": [ "plastic", "aluminum" ],
     "dispersion": 180,
     "effects": [ "INCENDIARY", "TRAIL", "LARGE_BEANBAG", "DRAW_AS_LINE" ],
-    "relative": { "range": -30.0, "damage": 50.0, "pierce": -15.0 }
+    "relative": { "range": -30, "damage": 50, "pierce": -15 }
   }
 ]
