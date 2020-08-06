@@ -122,6 +122,6 @@
       "target": "goggles_welding",
       "menu_text": "Cover the eyes"
     },
-    "flags": [ "BELTED", "VARSIZE", "OVERSIZE", "WATERPROOF", "ALLOWS_NATURAL_ATTACKS" ]
+    "flags": [ "BELTED", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS" ]
   }
 ]
